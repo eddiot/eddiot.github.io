@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==================End of Reset==========================*/
+
+body {
+	width: 80%;
+	margin: auto;
+	font-family: sans-serif;
+	margin-top: 20px;
+	height: 100%;
+	position: relative;
+	background: #0000FF;
+  background: linear-gradient(to right, #0000FF, #f6f1d3);
+}
+
+html {
+	height: 100%
+}
+
+
+/*==================Logo and Picture=======================*/
+
+.logo {
+	float: left;
+	display: block;
+	font-size: 60px;
+	margin-bottom: 50px;
+  color: #F2F2F2;
+}
+
+.mypic {
+	float: right;
+
+}
+
+.mypic img {
+	height: 150px;
+	border-radius: 50%;
+}
+
+/*===================Navigation Bar========================*/
+
+.navbar {
+	display: block;
+	width:700px;
+	height: 30px;
+	background: #E6E6E6;
+	border: 2px solid black;
+	clear: left;
+	text-align: center;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 7px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.navbar li {
+	display: inline;
+	font-size: 22px;
+	padding-left: 10px;
+	padding-right: 25px;
+	font-family: sans-serif;;
+}
+
+/*======================Mission Statement====================*/
+
+
+.mission {
+	display: block;
+	float: left;
+	height: 95px;
+	padding: 30px;
+	width: 800px;
+	text-align: left;
+	font-family: sans-serif;
+	color: #F2F2F2;
+	margin-bottom: 10px;
+  border-radius: 10px;
+  /*border: 2px solid black*/
+}
+
+
+.mission h1 {
+	font-size: 40px;
+
+}
+
+.mission h3 {
+	font-size: 22px;
+}
+
+/*======================boxes============================*/
+
+.boxes {
+	height: 100px;
+	width: 300px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	background: #D0A9F5;
+  background: linear-gradient(#610B21, #E2A9F3);
+	margin-left: 60px;
+	vertical-align: top;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  padding: 5px;
+ 
+}
+
+.boxes h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #F2F2F2;
+  margin: 5px;
+}
+
+.boxes p {
+  margin-left: 5px;
+  margin0-right: 5px;
+}
+
+
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 30px;
+display: block;
+width: 100%;
+font-size: 18px;
+font-weight: 100px;
+color: #F2F2F2;
+  
+}
+
+.resize {
+	float: right;
+	height: 100px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 50%;
+}
+
+
+
